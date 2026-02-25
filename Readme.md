@@ -1,4 +1,5 @@
 Audio Leveler Pro 🎧
+
 Una aplicación de escritorio moderna y eficiente para nivelar el volumen de archivos de audio en Linux, optimizada para OpenArgOS y sistemas basados en Debian.
 
 ✨ Novedades de la Versión 1.1.0
