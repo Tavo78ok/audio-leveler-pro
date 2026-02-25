@@ -9,27 +9,29 @@ Soporte de Carátulas (Album Art): ¡Ya no más iconos genéricos! La imagen del
 
 Motor FFmpeg Optimizado: Uso del filtro loudnorm para una normalización profesional a estándares LUFS.
 
-🚀 Características principales
--Interfaz Moderna: Construida con GTK4 y Libadwaita para una integración perfecta con GNOME.
+🚀 Características principales:
 
--Procesamiento por Lotes: Añade carpetas enteras y nivela todo de una vez.
+- Interfaz Moderna: Construida con GTK4 y Libadwaita para una integración perfecta con GNOME.
 
--Vista Previa: Escucha los primeros 10 segundos para asegurarte de que el nivel de DB es el que buscas.
+- Procesamiento por Lotes: Añade carpetas enteras y nivela todo de una vez.
 
--Notificaciones: El sistema te avisará automáticamente cuando el trabajo haya terminado.
+- Vista Previa: Escucha los primeros 10 segundos para asegurarte de que el nivel de DB es el que buscas.
+
+- Notificaciones: El sistema te avisará automáticamente cuando el trabajo haya terminado.
 
 🛠️ Requisitos del sistema
 Para que la aplicación funcione, el sistema debe tener instalados:
 
-python3
+- python3
 
-ffmpeg
+- ffmpeg
 
-gir1.2-gtk-4.0
+- gir1.2-gtk-4.0
 
-gir1.2-adw-1
+- gir1.2-adw-1
 
-📦 Instalación
+📦 Instalación:
+
 Ve a la sección de Lanzamientos (Releases).
 
 Descarga el archivo audio-leveler-pro.deb.
