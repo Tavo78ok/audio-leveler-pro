@@ -178,8 +178,18 @@ class AudioLevelerWindow(Adw.ApplicationWindow):
 
             out_path = os.path.join(output_dir, out_name)
 
-            cmd = ['ffmpeg', '-y', '-i', audio.path, '-af', f'loudnorm=I={target_db}',
-                   '-c:a', 'libmp3lame', '-q:a', '2', out_path]
+            # COMANDO CORREGIDO: Ahora incluye los mapas para conservar imagen y metadatos
+            cmd = [
+                'ffmpeg', '-y', '-i', audio.path,
+                '-af', f'loudnorm=I={target_db}',
+                '-c:a', 'libmp3lame', '-q:a', '2',
+                '-map_metadata', '0',    # Copia Artista, Álbum, etc.
+                '-map', '0:a',           # Copia el audio procesado
+                '-map', '0:v?',          # Copia la imagen (carátula) si existe
+                '-c:v', 'copy',          # No re-procesa la imagen (mantiene calidad)
+                '-id3v2_version', '3',   # Asegura compatibilidad de la carátula
+                out_path
+            ]
 
             self.process = subprocess.Popen(cmd, stderr=subprocess.PIPE)
             self.process.wait()
@@ -217,5 +227,6 @@ class AudioLevelerWindow(Adw.ApplicationWindow):
 if __name__ == "__main__":
     app = AudioLevelerApp()
     app.run(sys.argv)
+
 
 
