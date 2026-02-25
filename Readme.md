@@ -10,13 +10,13 @@ Soporte de Carátulas (Album Art): ¡Ya no más iconos genéricos! La imagen del
 Motor FFmpeg Optimizado: Uso del filtro loudnorm para una normalización profesional a estándares LUFS.
 
 🚀 Características principales
-Interfaz Moderna: Construida con GTK4 y Libadwaita para una integración perfecta con GNOME.
+-Interfaz Moderna: Construida con GTK4 y Libadwaita para una integración perfecta con GNOME.
 
-Procesamiento por Lotes: Añade carpetas enteras y nivela todo de una vez.
+-Procesamiento por Lotes: Añade carpetas enteras y nivela todo de una vez.
 
-Vista Previa: Escucha los primeros 10 segundos para asegurarte de que el nivel de DB es el que buscas.
+-Vista Previa: Escucha los primeros 10 segundos para asegurarte de que el nivel de DB es el que buscas.
 
-Notificaciones: El sistema te avisará automáticamente cuando el trabajo haya terminado.
+-Notificaciones: El sistema te avisará automáticamente cuando el trabajo haya terminado.
 
 🛠️ Requisitos del sistema
 Para que la aplicación funcione, el sistema debe tener instalados:
