@@ -43,9 +43,9 @@ Descarga el archivo audio-leveler-pro.deb.
 
 Instálalo con tu gestor de paquetes favorito o desde la terminal:
 
-sudo dpkg -i audio-leveler-pro.deb
+- sudo dpkg -i audio-leveler-pro.deb
 
-sudo apt install -f  # Para asegurar las dependencias
+- sudo apt install -f  # Para asegurar las dependencias
 
 ⚖️ Licencia
 Este proyecto es Software Libre bajo la licencia GNU GPLv3.
